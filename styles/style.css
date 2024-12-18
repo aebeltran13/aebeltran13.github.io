@@ -3,14 +3,24 @@
   padding: 0;
   box-sizing: border-box;
 
-  border: 1px solid greenyellow;
+  /* border: 1px solid greenyellow; */
 }
 
 :root {
+  /* Colors */
   --dark-color: #171616;
   --dark-accent: #0F4C5C;
   --main-color: #E36414;
   --main-accent: #FB8B24;
   --secondary-color: #9A031E;
   --secondary-accent: #5F0F40;
+
+  /* Fonts */
+  --main-font: 'Tomorrow', sans-serif;
+  --secondary-font: 'Roboto', sans-serif;
+}
+
+body {
+  background-color: var(--dark-color);
+  color: var(--main-color);
 }
