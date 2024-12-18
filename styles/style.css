@@ -64,11 +64,11 @@ header a:hover {
   align-items: center;
   height: 100vh;
   text-align: start;
-  padding: 0 34px;
+  padding: 0 88px;
 }
 
 #landing-text {
-  max-width: 60%;
+  max-width: 50%;
   margin-right: 20px;
 }
 
@@ -107,5 +107,5 @@ header a:hover {
 }
 
 #landing-img img {
-  max-width: 60%;
+  max-width: 50%;
 }
