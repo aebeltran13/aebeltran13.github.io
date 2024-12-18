@@ -56,3 +56,56 @@ header a:hover {
 #time-and-day {
   margin-left: auto;
 }
+
+/* Main Styles */
+#landing-page {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  text-align: start;
+  padding: 0 34px;
+}
+
+#landing-text {
+  max-width: 60%;
+  margin-right: 20px;
+}
+
+#landing-text h1 {
+  font-size: 3rem;
+  margin-bottom: 20px;
+}
+
+#landing-text p {
+  font-size: 1.5rem;
+  margin-bottom: 20px;
+  color: var(--main-accent);
+}
+
+#landing-text button {
+  background-color: var(--main-color);
+  color: var(--dark-color);
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1.5rem;
+  font-weight: bold;
+  font-family: var(--main-font);
+}
+
+#landing-text button:hover {
+  background-color: var(--dark-accent);
+  color: var(--main-color);
+}
+
+#landing-img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#landing-img img {
+  max-width: 60%;
+}
