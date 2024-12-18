@@ -8,6 +8,7 @@
 
 :root {
   /* Colors */
+  --light-color: #dce1ef;
   --dark-color: #171616;
   --dark-accent: #0F4C5C;
   --main-accent: #E36414;
@@ -20,10 +21,14 @@
   --secondary-font: 'Roboto', sans-serif;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 /* Global Styles */
 body {
   background-color: var(--dark-color);
-  color: var(--main-color);
+  color: var(--light-color);
   font-family: var(--main-font);
 }
 
@@ -45,16 +50,18 @@ header li {
 
 header a {
   text-decoration: none;
-  color: var(--main-color);
+  color: var(--light-color);
   padding: 0 10px;
 }
 
 header a:hover {
-  color: var(--secondary-color);
+  color: var(--main-color);
 }
 
 #time-and-day {
   margin-left: auto;
+  color: var(--light-color);
+  font-size: 1.5rem;
 }
 
 /* Main Styles */
@@ -75,12 +82,13 @@ header a:hover {
 #landing-text h1 {
   font-size: 3rem;
   margin-bottom: 20px;
+  color: var(--main-color);
 }
 
 #landing-text p {
   font-size: 1.5rem;
   margin-bottom: 20px;
-  color: var(--main-accent);
+  color: var(--light-color);
 }
 
 #landing-text button {
@@ -96,7 +104,7 @@ header a:hover {
 }
 
 #landing-text button:hover {
-  background-color: var(--dark-accent);
+  background-color: var(--secondary-accent);
   color: var(--main-color);
 }
 
