@@ -10,8 +10,8 @@
   /* Colors */
   --dark-color: #171616;
   --dark-accent: #0F4C5C;
-  --main-color: #E36414;
-  --main-accent: #FB8B24;
+  --main-accent: #E36414;
+  --main-color: #FB8B24;
   --secondary-color: #9A031E;
   --secondary-accent: #5F0F40;
 
@@ -20,7 +20,37 @@
   --secondary-font: 'Roboto', sans-serif;
 }
 
+/* Global Styles */
 body {
   background-color: var(--dark-color);
   color: var(--main-color);
+  font-family: var(--main-font);
+}
+
+/* Header Styles */
+header {
+  background-color: var(--dark-color);
+  padding: 20px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  font-size: 2rem;
+}
+
+header li {
+  display: inline;
+}
+
+header a {
+  text-decoration: none;
+  color: var(--main-color);
+  padding: 0 10px;
+}
+
+header a:hover {
+  color: var(--secondary-color);
+}
+
+#time-and-day {
+  margin-left: auto;
 }
