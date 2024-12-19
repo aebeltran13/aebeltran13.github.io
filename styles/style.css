@@ -142,3 +142,47 @@ header a:hover {
   color: var(--light-color);
   align-self: flex-start;
 }
+
+/* Quests Styles */
+#quests {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  min-height: 60vh;
+  text-align: start;
+  padding: 0 88px;
+}
+
+#quests h2 {
+  font-size: 3rem;
+  margin-bottom: 20px;
+  color: var(--main-color);
+  align-self: flex-start;
+}
+
+#quests p {
+  font-size: 1.5rem;
+  margin-bottom: 20px;
+  color: var(--light-color);
+  align-self: flex-start;
+}
+
+#quests h3 {
+  font-size: 2rem;
+  margin-bottom: 5px;
+  color: var(--main-accent);
+  align-self: flex-start;
+}
+
+/* Footer Styles */
+footer {
+  background-color: var(--dark-color);
+  padding: 20px;
+  text-align: center;
+  font-size: .5rem;
+  height: 15vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
