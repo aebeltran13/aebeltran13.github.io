@@ -69,7 +69,7 @@ header a:hover {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 100vh;
+  height: 90vh;
   text-align: start;
   padding: 0 88px;
 }
@@ -116,4 +116,29 @@ header a:hover {
 
 #landing-img img {
   max-width: 50%;
+}
+
+/* About Me Styles */
+#about-me {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  height: 60vh;
+  text-align: start;
+  padding: 0 88px;
+}
+
+#about-me h2 {
+  font-size: 3rem;
+  margin-bottom: 20px;
+  color: var(--main-color);
+  align-self: flex-start;
+}
+
+#about-me p {
+  font-size: 1.5rem;
+  margin-bottom: 20px;
+  color: var(--light-color);
+  align-self: flex-start;
 }
